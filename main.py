@@ -42,4 +42,4 @@ for index, book in enumerate(books):
 with open("result.json", "w", encoding="utf-8") as file:
     json.dump(result, file, indent=4, ensure_ascii=False)
 
-print("Файл result.json создан")
+print("Файл result.json успешно создан")
